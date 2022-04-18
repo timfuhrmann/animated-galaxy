@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { Galaxy } from "../app/lib/galaxy";
 
 const Home: React.FC = () => {
-    return <div>home</div>;
+    useEffect(() => {
+        const galaxy = new Galaxy();
+
+        return () => galaxy.destroy();
+    }, []);
+
+    return null;
 };
 
 export default Home;
