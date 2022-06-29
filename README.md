@@ -1,5 +1,3 @@
-This boilerplate is a [Next.js](https://nextjs.org/) project using [Typescript](https://www.typescriptlang.org/) and [Styled Components](https://styled-components.com/).
-
 ## Getting Started
 
 Run the development server:
